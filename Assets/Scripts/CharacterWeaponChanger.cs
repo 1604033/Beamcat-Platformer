@@ -82,9 +82,10 @@ public class CharacterWeaponChanger : MonoBehaviour
 
     private void Update()
     {
-        if (InputManager.Instance.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown)
-        {
-        }
+        // if (InputManager.Instance.JumpButton.State.CurrentState == MMInput.ButtonStates.ButtonDown)
+        // {
+        //     HandleWeaponChange(1);
+        // }
     }
 
     public void HandleWeaponChange(int index)

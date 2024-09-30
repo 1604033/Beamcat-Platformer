@@ -36,19 +36,14 @@ public class ComboCharacter : CharacterAbility
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (_inputManager.ShootButton.IsDown)
         {
             if (_meleeAnimatorStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
             {
                 HandleInput();
             }
         }
-
-        if (_inputManager.ShootButton.IsDown &&  _meleeAnimatorStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
-        {
-            _meleeAnimatorStateMachine.SetNextState(new GroundEntryState());
-        }
-        Debug.Log($"Vertical Input: {_verticalInput}");
+        
     }
 
     private void HandleInput()
@@ -66,10 +61,10 @@ public class ComboCharacter : CharacterAbility
                 _meleeAnimatorStateMachine.SetNextState(new AirAttackMeleeBaseEntryState());
             }
         }
-        // else
-        // {
-        //     _meleeAnimatorStateMachine.SetNextState(new GroundEntryState());
-        // }
+        else
+        {
+            _meleeAnimatorStateMachine.SetNextState(new GroundEntryState());
+        }
     }
 
     public void PerformAttack(int attack)

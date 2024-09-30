@@ -60,7 +60,7 @@ public class MeleeBaseState : State
 
         if (animator.GetFloat("AttackWindow.Open") > 0f && AttackPressedTimer > 0 && KeyClickCountPressedTimer > 1) 
         {
-            shouldCombo = true;
+            shouldCombo = true; 
             KeyClickCountPressedTimer = 0;
         }
         
