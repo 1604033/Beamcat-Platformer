@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using MoreMountains.CorgiEngine;
+using MoreMountains.Tools;
 using UnityEngine;
 
 public class ComboSystem : MonoBehaviour
@@ -19,21 +21,23 @@ public class ComboSystem : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>() ?? throw new MissingComponentException("Animator component is missing!");
-    }
+         }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (InputManager.Instance.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown)
         {
+            Debug.Log("Clicked shoot button!!");
             HandleAttackInput();
         }
     }
 
     private void HandleAttackInput()
     {
-        if (_isAttackPlaying || _isComboWindowOpen || _comboStatesQueue.Count > 0)
+        if (_isAttackPlaying || _isComboWindowOpen )
         {
             EnqueueNextAttack();
+            Debug.Log("There is still combo attack");
         }
         else
         {
@@ -50,8 +54,10 @@ public class ComboSystem : MonoBehaviour
     private void InitiateAttack()
     {
         _currentAttack = _currentAttack == ComboStates.None ? ComboStates.Attack1 : GetNextAttack(_currentAttack);
+        Debug.Log($"Attack index: {_currentAttack}");
         PlayAttackAnimation();
         StartCoroutine(ComboWindowCoroutine());
+        // CharacterWeaponChanger.Instance.HandleWeaponChange(1);
     }
 
     private void PlayAttackAnimation()
@@ -82,6 +88,7 @@ public class ComboSystem : MonoBehaviour
     private IEnumerator AnimationTrackerCoroutine(AnimationClip animationClip)
     {
         _isAttackPlaying = true;
+        Debug.Log($"Current anim: {animationClip.name}");
         _animator.Play(animationClip.name);
         yield return new WaitForSeconds(animationClip.length);
         _isAttackPlaying = false;

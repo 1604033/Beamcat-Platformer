@@ -77,7 +77,8 @@ public class CharacterWeaponChanger : MonoBehaviour
     private void Awake()
     {
         if(Instance == null)
-        Instance = this;
+            Instance = this;
+        _characterHandleWeapon = GetComponent<CharacterHandleWeapon>();
     }
 
     private void Update()

@@ -1,0 +1,1461 @@
+fileFormatVersion: 2
+guid: 010c798ff9821af4f9c35dbd92854cb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2822
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e782226e5fa233459f2cab9e2e63062
+      internalID: 557616709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2822
+        width: 180
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a824521581a22c47b526f849458d9cf
+      internalID: -233625004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2822
+        width: 174
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f6bfd13242b647949c472a58d94bc
+      internalID: 406206046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2913
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d120b349cb9e33442a47c13a50c3ae24
+      internalID: -1080339774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_4
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2822
+        width: 162
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9252d7f42040ce440b61f8261d33f680
+      internalID: 500157326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2561
+        width: 180
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf42635d274d954abcfab523c5cd9ed
+      internalID: 1008197244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2564
+        width: 188
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9176b78b2cf89ca44b7fcba28ec6d555
+      internalID: -855508021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_7
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2558
+        width: 198
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33bca6eaafe5884d9227491e4f25961
+      internalID: 579727427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_8
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2561
+        width: 193
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ed3ef13d391f247ace7a781fd3eed9
+      internalID: -691104318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_9
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2560
+        width: 174
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e31463b13c5fb49ab4c2e5dceb0f1b
+      internalID: -251580383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2635
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e92c7b605fc0b4aac4d4f323af2461
+      internalID: -1366081371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_11
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2558
+        width: 182
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c357cfa61cf03a1408cdf64177504dbb
+      internalID: 1378813346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2309
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f7080b96808344cb746ed65eea3547
+      internalID: 496041012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2309
+        width: 180
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc28456b98b26924399c9924ab914ffe
+      internalID: 1114216288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2309
+        width: 174
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b7d1c5f78cf1a4fb87f8454eceb966
+      internalID: 1295251152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_15
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2309
+        width: 169
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b352e1cc16078745a29de6e22a9d165
+      internalID: -2003370924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2054
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80927bfd817b64547a9bfcdcbf7637ba
+      internalID: -169964976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2054
+        width: 174
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807d27899aca1a44fb8bff8b07ad54bf
+      internalID: -1510040774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_18
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2048
+        width: 184
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0f43b8b66ded14aaf5bb9cc8f3b202
+      internalID: -1253677308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2048
+        width: 168
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43db2ca1fbae742448dc878b1fcef745
+      internalID: -2056459538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_20
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2054
+        width: 207
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f4632103d6c1747a4b088a918139f2
+      internalID: 525863282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_21
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 2062
+        width: 211
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d51d19a147ec574f82cf3830d222cb7
+      internalID: -1462829843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1793
+        width: 200
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c075964748741e34fa6af0004768d963
+      internalID: -1302830753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_23
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1793
+        width: 200
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef88b3598ff22446a11d1c9e0cd8bdc
+      internalID: -414149876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_24
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1793
+        width: 177
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d941e2299a87fc646ba02b4d212b34d8
+      internalID: 1969082364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_25
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1792
+        width: 238
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4894de1f517e5446865085c90afc86a
+      internalID: 420357073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_26
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1792
+        width: 255
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882fedbd4cf68084d8b1ecd4d9403d51
+      internalID: 1849595616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_27
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1793
+        width: 257
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc775df2c05f95940b11ca5feb038485
+      internalID: -365317783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1538
+        width: 200
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e91b0cc11054e4194531487d471d68
+      internalID: -1384133116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1543
+        width: 180
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8f33a4cc3fb5a47bd36909e8821cdd
+      internalID: 779274017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_30
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1544
+        width: 189
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b4fb4565eb9141b4abafeaf6ed82f
+      internalID: 639982397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_31
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1543
+        width: 217
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93f7f90936770c4c8bcbe954deccc16
+      internalID: 703667053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_32
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1540
+        width: 225
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53128ef8afb21474eb817254b9be4060
+      internalID: -1001638234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_33
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1544
+        width: 244
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae103d2549c9f043810c70e5b172e83
+      internalID: 984450035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1282
+        width: 200
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadbbc23322e8d24093ed589a0b9f4d8
+      internalID: -296601536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1282
+        width: 234
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4180d1d4bc9515044ba50166c532f309
+      internalID: 658503575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_36
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1282
+        width: 223
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a514255d847d34fa8ef8c397b9a268
+      internalID: 1141338053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_37
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1282
+        width: 205
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36696226ac87454b847504a1841fbc4
+      internalID: 137742612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_38
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1282
+        width: 210
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf1455ca9496b4a9053ebc21a53af7
+      internalID: -885040073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_39
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1282
+        width: 250
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a15afa3168e45a4ab181f08f627ce1b
+      internalID: 158545636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1051
+        width: 199
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b3a5d65093f92439ce4a43a6c13848
+      internalID: -200133124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_41
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1052
+        width: 237
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3534f5138de412a4889429f61049eed9
+      internalID: -1050417874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_42
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1057
+        width: 243
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ea5238525f17346b796fcf926e159a
+      internalID: 155960129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_43
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1051
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b509e172a045e449efc73119dc7c9e
+      internalID: 1645569146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 781
+        width: 180
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa554107ef59fe438aa43c980aee3a4
+      internalID: 280095378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_45
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 785
+        width: 183
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a57535f435a28439f0726ed3866866
+      internalID: -23404966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_46
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 788
+        width: 188
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de0bbfd20b450542b57eae6541b4485
+      internalID: 1785676008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_47
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 799
+        width: 190
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c363da3059adc2d4b886304e0d935fc3
+      internalID: 1037521062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_48
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 796
+        width: 198
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe5e9c41aff7cc418ba8675a3404bbf
+      internalID: 773577704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_49
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 784
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4591b71d7a8e42c4d95ad9be49b82d09
+      internalID: -1057450170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 527
+        width: 213
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8769fde5bc369e34dbfc95bc579ab648
+      internalID: -140942729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_51
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 527
+        width: 210
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccacbae05220c574e858a030270ce0fb
+      internalID: -395371299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_52
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 262
+        width: 172
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93496b02343f62f408b24731c870846f
+      internalID: 1089629978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 260
+        width: 194
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9378b839e7cd5a2409109831fbf4a783
+      internalID: 514960444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_54
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 274
+        width: 231
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83b886b1c32bae4fafaa0e2dc4e0759
+      internalID: 552468860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_55
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 266
+        width: 230
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a87d261f81e104fa848e401f2b1524
+      internalID: 1968231291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_58
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 260
+        width: 235
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5506014cec775e4bb3aa951da164b7c
+      internalID: -218894104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_59
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 263
+        width: 236
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c174e58e0a931e8408d9450a84985906
+      internalID: 426366564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 237
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d04b75c03dc084f9780d26bd27a81d
+      internalID: -1602326633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 232
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b44504c89590a47b85e0807b21faa6
+      internalID: 502513274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beamcat_SpritesheetFinal_65
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4
+        width: 231
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafa34884c3dd0144bdeb6e30ad01810
+      internalID: -429605348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Beamcat_SpritesheetFinal_0: 557616709
+      Beamcat_SpritesheetFinal_1: -233625004
+      Beamcat_SpritesheetFinal_10: -1366081371
+      Beamcat_SpritesheetFinal_11: 1378813346
+      Beamcat_SpritesheetFinal_12: 496041012
+      Beamcat_SpritesheetFinal_13: 1114216288
+      Beamcat_SpritesheetFinal_14: 1295251152
+      Beamcat_SpritesheetFinal_15: -2003370924
+      Beamcat_SpritesheetFinal_16: -169964976
+      Beamcat_SpritesheetFinal_17: -1510040774
+      Beamcat_SpritesheetFinal_18: -1253677308
+      Beamcat_SpritesheetFinal_19: -2056459538
+      Beamcat_SpritesheetFinal_2: 406206046
+      Beamcat_SpritesheetFinal_20: 525863282
+      Beamcat_SpritesheetFinal_21: -1462829843
+      Beamcat_SpritesheetFinal_22: -1302830753
+      Beamcat_SpritesheetFinal_23: -414149876
+      Beamcat_SpritesheetFinal_24: 1969082364
+      Beamcat_SpritesheetFinal_25: 420357073
+      Beamcat_SpritesheetFinal_26: 1849595616
+      Beamcat_SpritesheetFinal_27: -365317783
+      Beamcat_SpritesheetFinal_28: -1384133116
+      Beamcat_SpritesheetFinal_29: 779274017
+      Beamcat_SpritesheetFinal_3: -1080339774
+      Beamcat_SpritesheetFinal_30: 639982397
+      Beamcat_SpritesheetFinal_31: 703667053
+      Beamcat_SpritesheetFinal_32: -1001638234
+      Beamcat_SpritesheetFinal_33: 984450035
+      Beamcat_SpritesheetFinal_34: -296601536
+      Beamcat_SpritesheetFinal_35: 658503575
+      Beamcat_SpritesheetFinal_36: 1141338053
+      Beamcat_SpritesheetFinal_37: 137742612
+      Beamcat_SpritesheetFinal_38: -885040073
+      Beamcat_SpritesheetFinal_39: 158545636
+      Beamcat_SpritesheetFinal_4: 500157326
+      Beamcat_SpritesheetFinal_40: -200133124
+      Beamcat_SpritesheetFinal_41: -1050417874
+      Beamcat_SpritesheetFinal_42: 155960129
+      Beamcat_SpritesheetFinal_43: 1645569146
+      Beamcat_SpritesheetFinal_44: 280095378
+      Beamcat_SpritesheetFinal_45: -23404966
+      Beamcat_SpritesheetFinal_46: 1785676008
+      Beamcat_SpritesheetFinal_47: 1037521062
+      Beamcat_SpritesheetFinal_48: 773577704
+      Beamcat_SpritesheetFinal_49: -1057450170
+      Beamcat_SpritesheetFinal_5: 1008197244
+      Beamcat_SpritesheetFinal_50: -140942729
+      Beamcat_SpritesheetFinal_51: -395371299
+      Beamcat_SpritesheetFinal_52: 1089629978
+      Beamcat_SpritesheetFinal_53: 514960444
+      Beamcat_SpritesheetFinal_54: 552468860
+      Beamcat_SpritesheetFinal_55: 1968231291
+      Beamcat_SpritesheetFinal_56: 996679340
+      Beamcat_SpritesheetFinal_57: -44127224
+      Beamcat_SpritesheetFinal_58: -218894104
+      Beamcat_SpritesheetFinal_59: 426366564
+      Beamcat_SpritesheetFinal_6: -855508021
+      Beamcat_SpritesheetFinal_60: 1630241560
+      Beamcat_SpritesheetFinal_61: -1244475419
+      Beamcat_SpritesheetFinal_62: 372655674
+      Beamcat_SpritesheetFinal_63: -1602326633
+      Beamcat_SpritesheetFinal_64: 502513274
+      Beamcat_SpritesheetFinal_65: -429605348
+      Beamcat_SpritesheetFinal_7: 579727427
+      Beamcat_SpritesheetFinal_8: -691104318
+      Beamcat_SpritesheetFinal_9: -251580383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
