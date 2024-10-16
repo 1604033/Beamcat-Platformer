@@ -3,12 +3,11 @@ using UnityEngine;
 
 public class HurtAnimationController : MonoBehaviour
 {
-    private Health _health;
-    private Animator _animator;
-    [SerializeField] private string hurtAnimatorParameter = "Hurt";
-    [SerializeField] private string deathAnimatorParameter = "Death";
-
-    private void Start()
+    protected Health _health;
+    protected Animator _animator;
+    [SerializeField] protected string hurtAnimatorParameter = "Hurt";
+    [SerializeField] protected string deathAnimatorParameter = "Death";
+    protected virtual void Start()
     {
         _health = GetComponent<Health>();
         _animator = GetComponent<Animator>();
@@ -17,15 +16,14 @@ public class HurtAnimationController : MonoBehaviour
         
     }
 
-    private void OnDeath()
+    protected virtual void OnDeath()
     {
-        Debug.Log("On Death called");
+        
         _animator.SetTrigger(deathAnimatorParameter);
     }
 
     private void OnHit()
     {
-        Debug.Log("OnHit called");
         if(_health.CurrentHealth > 0.15)
             _animator.SetTrigger(hurtAnimatorParameter);
     } 

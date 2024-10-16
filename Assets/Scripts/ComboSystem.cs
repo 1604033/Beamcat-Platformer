@@ -11,6 +11,9 @@ public class ComboSystem : MonoBehaviour
     [SerializeField] private AnimationClip[] _animationClips;
     [SerializeField] private AnimationClip _idleAnimationClip;
     [SerializeField] private float _comboWindowDuration = 1.5f;
+    [SerializeField] private string airAttackParam = "AirAttack";
+    [SerializeField] private string airAttackDownParam = "AirAttackDown";
+    private CorgiController _corgiController;
 
     private UniqueQueue<ComboStates> _comboStatesQueue = new UniqueQueue<ComboStates>();
     private Animator _animator;
@@ -21,11 +24,12 @@ public class ComboSystem : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>() ?? throw new MissingComponentException("Animator component is missing!");
-         }
+        _corgiController = GetComponent<CorgiController>();
+    }
 
     private void Update()
     {
-        if (InputManager.Instance.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown)
+        if (InputManager.Instance.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown || Input.GetKeyDown(KeyCode.X))
         {
             Debug.Log("Clicked shoot button!!");
             HandleAttackInput();
@@ -34,14 +38,32 @@ public class ComboSystem : MonoBehaviour
 
     private void HandleAttackInput()
     {
-        if (_isAttackPlaying || _isComboWindowOpen )
+        if (_corgiController.State.IsGrounded)
         {
-            EnqueueNextAttack();
-            Debug.Log("There is still combo attack");
+            if (_isAttackPlaying || _isComboWindowOpen)
+            {
+                EnqueueNextAttack();
+                Debug.Log("There is still combo attack");
+            }
+            else
+            {
+                InitiateAttack();
+            }
         }
         else
         {
-            InitiateAttack();
+            //Checking for down key click
+            if (InputManager.Instance.PrimaryMovement.y < -InputManager.Instance.Threshold.y)
+            {
+                _animator.SetTrigger(airAttackDownParam);
+                
+
+            }
+            else
+            {
+                _animator.SetTrigger(airAttackParam);
+
+            }
         }
     }
 

@@ -36,7 +36,6 @@ GameObject:
   - component: {fileID: 4706116864142744147}
   - component: {fileID: 1518872672758530871}
   - component: {fileID: 7160808122973481945}
-  - component: {fileID: 4948184328946433407}
   - component: {fileID: 7186989291213633717}
   m_Layer: 13
   m_Name: Boar
@@ -227,7 +226,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0046176314, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -238,7 +237,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9966367, y: 1.5}
+  m_Size: {x: 2.56, y: 1.5}
   m_EdgeRadius: 0
 --- !u!114 &3707606584832527339
 MonoBehaviour:
@@ -375,12 +374,12 @@ MonoBehaviour:
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 0}
   DestroyOnDeath: 1
-  DelayBeforeDestruction: 0
-  CollisionsOffOnDeath: 1
+  DelayBeforeDestruction: 2
+  CollisionsOffOnDeath: 0
   GravityOffOnDeath: 0
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
-  ApplyDeathForce: 1
+  ApplyDeathForce: 0
   DeathForce: {x: 0, y: 10}
   ResetForcesOnDeath: 0
   ResetColorOnRevive: 1
@@ -1088,28 +1087,6 @@ MonoBehaviour:
   TestMaxHealth: 100
   TestCurrentHealth: 25
   TestUpdateHealthButton: 0
---- !u!114 &4948184328946433407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5029303878121911001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RespawnOnPlayerRespawn: 1
-  RepositionToInitOnPlayerRespawn: 0
-  DisableOnKill: 0
-  DisableModelOnKill: 1
-  AutoRespawnDuration: 0
-  AutoRespawnAmount: 3
-  AutoRespawnRemainingAmount: 3
-  IgnoreCheckpointsAlwaysRespawn: 1
-  AssociatedCheckpoints: []
-  RespawnFeedback: {fileID: 0}
 --- !u!114 &7186989291213633717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1122,3 +1099,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fa654a02ff880144bc341fd6df2ed45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hurtAnimatorParameter: Hurt
+  deathAnimatorParameter: Death
