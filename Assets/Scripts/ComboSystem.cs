@@ -13,7 +13,10 @@ public class ComboSystem : MonoBehaviour
     [SerializeField] private float _comboWindowDuration = 1.5f;
     [SerializeField] private string airAttackParam = "AirAttack";
     [SerializeField] private string airAttackDownParam = "AirAttackDown";
+    [SerializeField] private string walkingParam = "Walking";
+    [SerializeField] private string jumpParam = "Jump";
     private CorgiController _corgiController;
+    private Character _character;
 
     private UniqueQueue<ComboStates> _comboStatesQueue = new UniqueQueue<ComboStates>();
     private Animator _animator;
@@ -25,6 +28,7 @@ public class ComboSystem : MonoBehaviour
     {
         _animator = GetComponent<Animator>() ?? throw new MissingComponentException("Animator component is missing!");
         _corgiController = GetComponent<CorgiController>();
+        _character = GetComponent<Character>();
     }
 
     private void Update()
@@ -34,6 +38,8 @@ public class ComboSystem : MonoBehaviour
             Debug.Log("Clicked shoot button!!");
             HandleAttackInput();
         }
+
+        SetAnimatonParameter();
     }
 
     private void HandleAttackInput()
@@ -163,7 +169,12 @@ public class ComboSystem : MonoBehaviour
         };
     }
     
-    
+    private void SetAnimatonParameter()
+    {
+        _animator.SetBool(walkingParam, Mathf.Abs(_corgiController.Speed.x) > 0.1f && !_character.Airborne);
+
+        _animator.SetBool(jumpParam, _character.Airborne);
+    }
     
 }
 

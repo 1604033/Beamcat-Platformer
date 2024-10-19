@@ -809,6 +809,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4706116864142744147, guid: d5c46007e7584c14094b57f74e964f67,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5029303878121911001, guid: d5c46007e7584c14094b57f74e964f67,
         type: 3}
       propertyPath: m_Name
@@ -822,7 +827,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5029303878121911001, guid: d5c46007e7584c14094b57f74e964f67,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1702706713}
   m_SourcePrefab: {fileID: 100100000, guid: d5c46007e7584c14094b57f74e964f67, type: 3}
 --- !u!1001 &879871403
 PrefabInstance:
@@ -904,7 +913,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5029303878121911001, guid: d06d307144cc466459bcc7ad3276276f,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1765194029}
+      addedObject: {fileID: 1765194059}
   m_SourcePrefab: {fileID: 100100000, guid: d06d307144cc466459bcc7ad3276276f, type: 3}
 --- !u!1001 &938392715
 PrefabInstance:
@@ -1136,6 +1145,24 @@ Transform:
   - {fileID: 1777167154}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1702706684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5029303878121911001, guid: d5c46007e7584c14094b57f74e964f67,
+    type: 3}
+  m_PrefabInstance: {fileID: 866598278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1702706713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702706684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea70cd4b789a4b5593a26c4f4ace44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1721201267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1370,7 +1397,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 879871403}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1765194029
+--- !u!114 &1765194059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1379,37 +1406,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1765193998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76891b3b532f84acaaeed44c357bd00c, type: 3}
+  m_Script: {fileID: 11500000, guid: aea70cd4b789a4b5593a26c4f4ace44c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  ApplyDamageOnTriggerEnter: 1
-  ApplyDamageOnTriggerStay: 1
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
-  TypedDamages: []
-  DamageCausedKnockbackType: 1
-  DamageCausedKnockbackDirection: 0
-  DamageCausedKnockbackForce: {x: 10, y: 2}
-  InvincibilityDuration: 0.5
-  RepeatDamageOverTime: 0
-  AmountOfRepeats: 3
-  DurationBetweenRepeats: 1
-  DamageOverTimeInterruptible: 1
-  RepeatedDamageType: {fileID: 0}
-  DamageTakenEveryTime: 0
-  DamageTakenDamageable: 0
-  DamageTakenNonDamageable: 0
-  DamageTakenKnockbackType: 0
-  DamageTakenKnockbackDirection: 0
-  DamageTakenKnockbackForce: {x: 0, y: 0}
-  DamageTakenInvincibilityDuration: 0.5
-  HitDamageableFeedback: {fileID: 0}
-  HitNonDamageableFeedback: {fileID: 0}
-  FreezeFramesOnHitDuration: 0
-  Owner: {fileID: 0}
 --- !u!114 &1777167152 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: 7a343ffc127af4b41b1e509d55d21956,
